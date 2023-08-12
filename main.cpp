@@ -32,7 +32,7 @@ int main()
    auto arr = std::to_array<int>({2,3,4,5,6});
    std::cout << " -------------- to_array ------ " << std::endl;
    std::cout << arr.size() << std::endl; // 5
-   std::cout << arr.at(2) << std::endl;  // 4
+   std::cout << arr.at(3) << std::endl;  // 4
 
    std::array arr2 {2,3,4,5,6};
    std::cout << " ------- normal array -------- " << std::endl;
